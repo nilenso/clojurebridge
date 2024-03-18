@@ -3,7 +3,15 @@
 
 - This workshop is specifically designed for women and non-binary individuals. 
 It's a small effort to encourage more females to learn programming, particularly
-Clojure, and utilize the power of computer technology.
+Clojure, and utilize the power of computer technology. Why? In the past decade 
+years of my engineering career I have seen the disparity in the
+gender ratio at all the companies I have worked with. In some teams,
+I was the only female developer. In some teams, I was the only
+female. I have never had a female mentor before. But, I have also
+seen companies change, grow, become more aware of this issue, and
+find ways to fix it. This is a small attempt towards that. Getting
+more females to learn programming, learn Clojure and do awesome
+things that come with ability to command a computer.
 
 - "So before we begin, I want to reinforce that you can program, that
   you can do math, that you can design car suspensions and fire
@@ -118,14 +126,15 @@ healthcare at home, strawberry farming or scaling logistics solutions.
 - Let's start a REPL. and we can type and evaluate things as we go on
   learning them.
 
-- How to open a REPL in VSCode 
-  - Open command palette using: `ctrl+shift+P` or `cmd+shift+P`
-  - Write `Calva: Start a project REPL`
-  - Select the project and tool accordingly
+*** How to open a REPL in VSCode
+- Open command palette using: `ctrl+shift+P` or `cmd+shift+P`
+- Write `Calva: Start a project REPL`
+- Select the project and tool accordingly
+- Once the REPL is up, navigate to the line you want to evaluate and
+  press `alt+enter` (`opt+enter` for mac)
 
 - As a first thing, type `nil` in your REPL, and see what it returns.
-  - `nil` is the most basic value in Clojure, it represents emptiness,
-    nothing-doing, not-a-thing.
+- `nil` is the most basic value in Clojure, it represents emptiness, nothing-doing, not-a-thing.
 
 #+BEGIN_SRC clojure
 nil
@@ -306,16 +315,15 @@ It allows for operations like moving, wrapping or editing code blocks as discret
 Plugins that enable structural editing:
 
  - Visual Studio Code: Calva (https://calva.io/)
- - Intellij: Cursive (https://cursive-ide.com/)
 
-Common Paredits for Visual Studio: 
+Commonly used Paredits(https://calva.io/paredit/) for Visual Studio: 
 
-| Action                     | Windows                | Linux      | Mac                     |
-| -------------------------- | ---------------------- | ---------- | ------------------------|
-| Slurp Forward              | ctrl+alt+right         | ctrl+alt+. | ctrl+opt+right          |
-| Barf Forward               | ctrl+alt+left          | ctrl+alt+, | ctrl+opt+left           |
-| Raise Sexp                 |       ctrl+alt+p  ctrl+alt+r        | ctrl+opt+p  ctrl+opt+r  |
-| Drag sexp forward/backward |           alt+up/down arrows        | opt+up/down arrows      |
+| Action                     | Windows                | Linux                 | Mac                    |
+| -------------------------- | ---------------------- | ----------------------| -----------------------|
+| Slurp Forward              | ctrl+alt+right         | ctrl+alt+.            | ctrl+opt+right         |
+| Barf Forward               | ctrl+alt+left          | ctrl+alt+,            | ctrl+opt+left          |
+| Raise Sexp                 | ctrl+alt+p  ctrl+alt+r | ctrl+alt+p  ctrl+alt+r| ctrl+opt+p  ctrl+opt+r |
+| Drag sexp forward/backward | alt+up/down arrows     | alt+up/down arrows    | opt+up/down arrows     |
 
 
 ** Simple data types - string, bool and numbers
